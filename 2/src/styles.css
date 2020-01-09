@@ -3,10 +3,10 @@ body {
     background-color: #1e90ff;
     display: flex;
     justify-content: space-around;
-    align-items: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height:100%;
+    align-items: center;
+    flex-direction: column;
+ 
+    height:500px;
     width:100%;
   }
   
@@ -16,8 +16,9 @@ body {
     background-color: #ff6b81;
     display:flex;
     justify-content: space-around;
-    align-items: space-around;
+    align-items: center;
     flex-direction: column;
+    
    
 }
 
@@ -25,4 +26,8 @@ body {
     width:40px;
     height:40px;
     background-color: #d8d8d8;
+}
+
+.inner-box:nth-child(2):hover{
+    background-color: red;
 }
