@@ -1,33 +1,130 @@
 body {
     font-family: sans-serif;
-  }
+    height: 1140px;
+    width: 550px;
+    border: 10px black solid;
+    margin-left: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
 
 .airpods {
     background-color: black;
     border: 10px black solid;
-    height: 600px;
-    width: 500px;
+    height: 590px;
+    width: 530px;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
 }
 
 .innerbox{
     background-color: white;
     border: 10px black solid;
     border-radius: 20px;
-    height: 580px;
-    width: 480px;
+    height: 590px;
+    width: 530px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 0;
+    padding: 0;
 }
 
+
+}
 .bottom{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
+
 .person{
+    background-color: black;
+    border: 10px black solid;
+    /* margin-top: 100px; */
+    height: 530px;
+    width: 530px;
+    border: 10px black solid;
+    display: flex;
+
+}
+
+.innerbox2{
     background-color: white;
-    border: 5px black solid;
-    height: 600px;
-    width: 500px;
+    border: 10px black solid;
+    border-radius: 20px;
+    height: 500px;
+    width: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0;
+}
+
+
+.title{
+    font-weight: bold;
+}
+
+.detail{
+    color: grey;
+}
+
+.upper{
+    border-radius: 20px;
+}
+
+.lower{
+    height: 300px;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.follow{
+    height: 60px;
+    width: 200px;
+    background-color: #2F72FF;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    border: 5px #2F72FF solid;
+    border-radius: 10px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.job{
+    color: grey;
+}
+
+.message{
+    height: 60px;
+    width: 200px;
+    background-color: #AED1FF;
+    margin-left: 20px;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    padding-top: 10px;
+    border: 5px #AED1FF; solid;
+    border-radius: 10px;
 }
