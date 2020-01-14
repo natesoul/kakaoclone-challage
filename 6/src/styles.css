@@ -1,4 +1,25 @@
 body {
     font-family: sans-serif;
   }
-  
+
+.airpods {
+    background-color: black;
+    border: 10px black solid;
+    height: 600px;
+    width: 500px;
+}
+
+.innerbox{
+    background-color: white;
+    border: 10px black solid;
+    border-radius: 20px;
+    height: 580px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.person{
+    background-color: white;
+    border: 5px black solid;
+}
