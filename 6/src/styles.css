@@ -16,10 +16,18 @@ body {
     height: 580px;
     width: 480px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
 .person{
     background-color: white;
     border: 5px black solid;
+    height: 600px;
+    width: 500px;
 }
