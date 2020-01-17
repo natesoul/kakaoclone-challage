@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
   background-color: #f9fafc;
   display: flex;
   justify-content: center;
@@ -19,6 +18,11 @@ a {
     font-weight: 600;
     color: red;
   }
+
+p,h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
 
   .phone {
     margin-top: 50px;
@@ -53,10 +57,11 @@ a {
   .header__bottoms{
       display: flex;
       justify-content: space-between;
+      margin-right: 20px;
   }
 
   .header__bottom{
-      text-decoration: none;
+    list-style: none;
   }
 
   .main__tops{
@@ -72,7 +77,88 @@ a {
       background-image: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/26/0/FNK_Tuscan-Chicken-Skillet_H2_s4x3.jpg.rend.hgtvcom.826.620.suffix/1537973085542.jpeg");
       background-size: cover;
       text-align: center;
-      color: white;
-      font-size: 15px;
+      color:#ECECEC;
+      font-size: 10px;
       margin-right: 20px;
+      padding-top: 30px;
+      list-style: none;
+  }
+
+  .main__tops .main__top:last-child{
+      background-image: url("https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/exps99509_FM143298B03_14_8b_WEB.jpg");
+  }
+
+  .main__bottoms{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .main__bottoms .main__bottom{
+      width: 120px;
+      height: 75px;
+      background-image: url("https://nourishbooks.com/wp-content/uploads/2014/01/Top100BabyFoods-e13544715822631.jpg");
+      background-size: cover;
+      text-align: center;
+      color: #ECECEC;
+      font-size: 10px;
+      margin-right: 20px;
+      padding-top: 30px;
+      list-style: none;
+  }
+
+  .main__bottoms .main__bottom:last-child{
+    background-image: url("http://www.gimmesomeoven.com/wp-content/uploads/2014/04/Strawberry-Banana-Smoothie-4.jpg");
+}
+
+  .others__title{
+    font-size: 12px;
+  }
+
+  .other{
+    width: 90%;
+    height: 45px;
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-size: 10px;
+    list-style: none;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .count{
+    opacity: 0.5;
+    font-size: 8px;
+  }
+    
+  .other__right{
+    font-size: 20px;
+    color: red;
+  }
+
+
+
+  .nav{
+    height: 50px;
+    width: 100%;
+    background-color: #FCFCFC;
+    border-radius: 0 0 20px 20px;
+
+  }
+
+  .nav .nav__items{
+    display: flex;
+    list-style: none;
+    padding:0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+
+  .nav__items .nav__item:nth-child(2){
+    color: red;
   }
