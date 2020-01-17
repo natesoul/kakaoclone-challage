@@ -58,3 +58,21 @@ a {
   .header__bottom{
       text-decoration: none;
   }
+
+  .main__tops{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin-right: 20px; */
+  }
+
+  .main__tops .main__top {
+      width: 120px;
+      height: 75px;
+      background-image: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/26/0/FNK_Tuscan-Chicken-Skillet_H2_s4x3.jpg.rend.hgtvcom.826.620.suffix/1537973085542.jpeg");
+      background-size: cover;
+      text-align: center;
+      color: white;
+      font-size: 15px;
+      margin-right: 20px;
+  }
