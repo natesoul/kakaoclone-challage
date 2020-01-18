@@ -2,6 +2,11 @@
 * {
   box-sizing: border-box;
 }
+
+a{
+  text-decoration: none;
+}
+
 body {
   background-color: #f9fafc;
   display: flex;
@@ -11,4 +16,137 @@ body {
   font-size: 12px;
   color: #010d3c;
   font-weight: 600;
+}
+
+.background{
+  width: 350px;
+  height: 710px;
+  background-color: white;
+  border: 10px blue solid;
+}
+
+.bgimage{
+  background: url("https://d39l2hkdp2esp1.cloudfront.net/img/photo/163616/163616_00_2x.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.status-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  font-size: 15px;
+  color:black;
+  opacity: 0.5;
+}
+
+.header .header__left{
+  text-decoration: none;
+}
+
+.user {
+  width: 340px;
+  /* overflow: hidden; */
+  margin-top: 120px;
+  border-radius: 10px;
+  padding-bottom: 0px;
+}
+
+
+.user .user__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user__header .user__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.user__header .user__name {
+  margin-top: 10px;
+  font-size: 20px;
+
+  color: #6fb3f7;
+  margin-bottom: -5px;
+}
+
+.user__header .user__location {
+  font-size: 12px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  padding:15px;
+}
+
+.buttons .button{
+  width: 140px;
+  height: 45px;
+  background-color:white;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.button:last-child{
+  background-color: #6fb3f7;
+  color: white;
+}
+
+.counts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+  margin-bottom: 15px;
+  list-style: none;
+  opacity: 0.7;
+}
+
+.count .count__c {
+  display: block;
+  padding-left: 10px;
+}
+
+.counts .card__count {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.nav .nav__items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  font-size: 20px;
+  list-style: none;
+  margin-top: 70px;
+}
+
+.nav__item:nth-child(1){
+  color:#6fb3f7;
+}
+
+.line{
+  height: 2px;
+  width: 110px;
+  background-color: grey;
+  position: relative;
+  left:110px;
+  bottom:30px;
 }

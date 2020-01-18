@@ -10,6 +10,7 @@
 
 <body>
     <div class="background">
+      <div class="bgimage">
         <div class="status-bar">
             <span class="status-bar__clock">9:41</span>
             <div class="status-bar__icons">
@@ -20,7 +21,7 @@
         </div>
         <header class="header">
             <div class="header__left">
-                <a href="#"><i class="fas fa-arrow-left"></i>/a>
+                <a href="#"><i class="fas fa-arrow-left"></i></a>
             </div>
             <span class="header__middle">Profile</span>
             <div class="header__right">
@@ -28,27 +29,47 @@
             </div>
         </header>
         <main>
-            <img src="" alt="">
-            <p>Suzie Jones</p>
-            <p>London, England</p>
+            <div class="user">
+                <div class="user__header">
+                    <img src="https://d39l2hkdp2esp1.cloudfront.net/img/photo/163616/163616_00_2x.jpg" 
+                    class="user__avatar" />
+                    <h1 class="user__name">Suzie Jones</h1>
+                    <h3 class="user__location">London, England</h3>
         </main>
         <div class="buttons">
             <div class="button">Follow</div>
             <div class="button">Message</div>
         </div>
         <ul class="counts">
-            <li class="count"></li>
-            <li class="count"></li>
-            <li class="count"></li>
+            <li class="counts__count count">
+                <div class="count__column">
+                    <span class="count__c">140</span>
+                    <span class="count__d">Followers</span>
+                </div>
+            </li>
+            <li class="counts__count count">
+                <div class="count__column">
+                    <span class="count__c">250</span>
+                    <span class="count__d">Following</span>
+                </div>
+            </li>
+            <li class="counts__count count">
+                <div class="count__column">
+                    <span class="count__c">369</span>
+                    <span class="count__d">Images</span>
+                </div>
+            </li>
         </ul>
         <nav class="nav">
             <ul class="nav__items">
-                <li class="nav__item"><i class="fas fa-home"></i></li>
-                <li class="nav__item"><i class="fas fa-globe-asia"></i></li>
-                <li class="nav__item"><i class="fas fa-route"></i></li>
-                <li class="nav__item"><i class="fas fa-users"></i></li>
+                <li class="nav__item"><i class="far fa-user"></i></li>
+                <li class="nav__item"><i class="fas fa-user-friends"></i></li>
+                <li class="nav__item"><i class="far fa-comments"></i></li>
                 <li class="nav__item"><i class="fas fa-cog"></i></li>
             </ul>
+            <div class="line"></div>
         </nav>
+        </div>
+      </div>
     </div>
 </body>
