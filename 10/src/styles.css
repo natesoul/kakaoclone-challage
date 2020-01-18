@@ -20,22 +20,22 @@ body {
 
 .background{
   width: 350px;
-  height: 710px;
+  height: 715px;
   background-color: white;
   border: 10px blue solid;
 }
 
 .bgimage{
-  background: url("https://d39l2hkdp2esp1.cloudfront.net/img/photo/163616/163616_00_2x.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url("https://d39l2hkdp2esp1.cloudfront.net/img/photo/163616/163616_00_2x.jpg");
   background-size: cover;
   background-position: center;
-
 }
 
 .status-bar{
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  opacity: initial;
 }
 
 .header{
