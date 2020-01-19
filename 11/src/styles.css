@@ -14,7 +14,49 @@ body {
 .first {
     height: 150px;
     width: 250px;
-    background-color: red;
+    background-color: #55CB93;
+    margin-bottom: 50px;
+    background-image: url("https://freeiconshop.com/wp-content/uploads/edd/camera-flat.png");
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.front {
+  position: absolute;
+  height: 150px;
+  width: 250px;
+  background-color: #2F4F4F ;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.front .front__title{
+  color: white;
+}
+
+.front .front__author{
+  color: red;
+  margin-bottom: 15px;
+}
+
+.front .front__button{
+  width: 80px;
+  height: 20px;
+  background-color: red;
+  color:white;
+  text-align: center;
+}
+
+.front:hover{
+  opacity: 1;
+  transition: 0.3s ease-in-out;
 }
 
 .second{
